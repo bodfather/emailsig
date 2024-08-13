@@ -6,6 +6,10 @@ Version: 1.1.1
 Author: bodfather
 */
 
+// Call the updater
+require_once 'updater.php';
+add_action('admin_init', 'your_plugin_updater');
+
 function emailsig_admin_styles() {
     wp_enqueue_style('emailsig-admin', plugins_url('/admin/css/style.css', __FILE__));
 }
