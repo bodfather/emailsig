@@ -1,0 +1,25 @@
+// At the top of each HTML file
+<?php
+if (!defined('ABSPATH') || !defined('WPINC')) {
+    exit;
+}
+?>
+
+<div style="width:100%; max-width: 1000px;">
+    <div style="display:flex;">
+      <div class="emailsig emailsig-line1" style="width:auto; font-family: 'Montserrat'; color:#1a3c4f; padding:0 10px 0 0; margin:0px;">
+        <a href="{website}" style="text-decoration: none;border: 0px; color: #000000;"><img src="{logo_url}" alt="Logo Image"></a>
+      </div>
+      <div style="flex-grow: 1; margin-left: 20px;">
+        <div class="emailsig emailsig-line1" style="font-weight: 600; text-transform: uppercase; font-size:110%; margin-bottom: 0;">{full_name}</div>
+        <div class="emailsig emailsig-line2" style="margin-bottom: 5px;"><a href="{mobile_link}" style="text-decoration: none;border: 0px; color: #000000;">{mobile}</a></div>
+        <div class="emailsig emailsig-line3" style="margin-bottom: 0;"><a href="mailto:{email}" style="text-decoration: none;border: 0px; color: #000000;font-size:90%;">{email}</a></div>
+        <div class="emailsig emailsig-line4" style="margin-bottom: 0;"><a href="{website}" style="text-decoration: none;border: 0px; color: #000000;font-size:90%;">{website}</a></div>
+        <div class="emailsig emailsig-line5" style="margin-bottom: 0;"><a href="{address_link}" style="text-decoration: none;border: 0px; color: #000000;font-size:90%;">{address}</a></div>
+      </div>
+    </div>
+    <div class="emailsig emailsig-banner1">
+      <hr />
+      <a href="{banner1_link}" style="text-decoration: none;border: 0px; color: #000000;"><img src="{banner1}" alt="Banner 1"></a>
+    </div>
+  </div>
