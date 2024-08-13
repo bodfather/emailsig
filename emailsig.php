@@ -2,8 +2,8 @@
 /*
 Plugin Name: Emailsig
 Description: A plugin to manage email signatures.
-Version: 1.1
-Author: Your Name
+Version: 1.1.1
+Author: bodfather
 */
 
 function emailsig_admin_styles() {
