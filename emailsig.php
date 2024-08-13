@@ -2,7 +2,7 @@
 /*
 Plugin Name: Emailsig
 Description: A plugin to manage email signatures.
-Version: 1.1.1
+Version: 1.2
 Author: bodfather
 */
 
