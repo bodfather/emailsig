@@ -1,7 +1,7 @@
 <?php
 function emailsig_pre_set_site_transient_update_plugins($transient) {
   // The current version of your plugin
-  $emailsig_current_version = '1.1';
+  $emailsig_current_version = '1.2.1';
   // GitHub repository information
   $repository = 'bodfather/emailsig';
   $token = ''; // Replace with your personal access token
